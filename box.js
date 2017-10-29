@@ -49,7 +49,7 @@ function Box(x, y, w, h, lock) {
     push();
     translate(pos.x,pos.y);
     rotate(a);
-    fill(127);
+    fill(127,0,127);
     stroke(200);
     strokeWeight(2);
     rect(0, 0, this.w, this.h);
